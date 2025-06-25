@@ -13,6 +13,7 @@ const FiltersBar = ({ onFilterChange }) => {
           <option value="sweater">Sweaters</option>
           <option value="pants">Pants</option>
           <option value="jumpsuit">Jumpsuit</option>
+          <option value="skirt">Skirts</option>
           <option value="outfits">Outfits</option>
         </select>
       </label>
@@ -27,10 +28,11 @@ const FiltersBar = ({ onFilterChange }) => {
           <option value="pink">Pink</option>
           <option value="purple">Purple</option>
           <option value="green">Green</option>
-          <option value="beige">Biege</option>
+          <option value="brown">Brown</option>
+          <option value="beige">Beige</option>
           <option value="grey">Grey</option>
           <option value="stripes">Stripes</option>
-          <option value="plaid">Plaid/Checked</option>
+          <option value="checked">Plaid/Checked</option>
         </select>
       </label>
     </div>
