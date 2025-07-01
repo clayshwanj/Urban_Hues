@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useEffect } from "react";
 import ProductCard from "../components/ProductCard";
 import FiltersBar from "../components/FiltersBar";
 import Navbar from "../components/Navbar";
@@ -522,7 +523,7 @@ const allProducts = [
     name: "Black one shoulder peplam",
     price: "Ksh 1000",
     image: "/img/Black one shoulder peplam.jpeg",
-    category: ["blouse", , "casual", "formal"],
+    category: ["blouse", "casual", "formal"],
     color: "black",
   },
   {
@@ -639,21 +640,173 @@ const allProducts = [
     category: ["outfits", "formal", "elegant"],
     color: "pink",
   },
+  {
+    id: 78,
+    name: "Leopard print layered dress",
+    price: "Ksh 1000",
+    image: "/img/1000074009.jpg",
+    category: ["dresses", "casual"],
+    color: "brown",
+  },
+  {
+    id: 79,
+    name: "Yellow top and accessories with a pair of stylish jeans",
+    price: "Ksh 1000",
+    image: "/img/1000074171.jpg",
+    category: ["outfits", "casual"],
+    color: "yellow",
+  },
+  {
+    id: 80,
+    name: "Go green",
+    price: "Ksh 1000",
+    image: "/img/1000074174.jpg",
+    category: ["outfits", "casual"],
+    color: "green",
+  },
+  {
+    id: 81,
+    name: "Mustard T-shirt and cream colored pants with accessories",
+    price: "Ksh 1000",
+    image: "/img/1000074172.jpg",
+    category: ["outfits", "casual"],
+    color: "yellow",
+  },
+  {
+    id: 82,
+    name: "Rocking outfit",
+    price: "Ksh 1000",
+    image: "/img/1000074173.jpg",
+    category: ["outfits", "formal", "elegant"],
+    color: "brown",
+  },
+  {
+    id: 83,
+    name: "Teenager outfits",
+    price: "Ksh 1000",
+    image: "/img/1000074170.jpg",
+    category: ["outfits", "casual"],
+    color: "yellow",
+  },
+  {
+    id: 84,
+    name: "Girly and pink",
+    price: "Ksh 1000",
+    image: "/img/1000074175.jpg",
+    category: ["outfits", "casual"],
+    color: "pink",
+  },
+  {
+    id: 85,
+    name: "Cool Outfit",
+    price: "Ksh 1000",
+    image: "/img/1000074177.jpg",
+    category: ["outfits", "casual"],
+    color: "blue",
+  },
+  {
+    id: 86,
+    name: "Tangerine Inspired",
+    price: "Ksh 1000",
+    image: "/img/1000074176.jpg",
+    category: ["outfits", "casual"],
+    color: "orange",
+  },
+  {
+    id: 87,
+    name: "Yellow sleeveless top with a pair of denim jeans",
+    price: "Ksh 1000",
+    image: "/img/1000074178.jpg",
+    category: ["outfits", "casual"],
+    color: "yellow",
+  },
+  {
+    id: 88,
+    name: "Mustard yellow t-shirt with jeans with accessories",
+    price: "Ksh 1000",
+    image: "/img/1000074179.jpg",
+    category: ["outfits", "casual"],
+    color: "yellow",
+  },
+  {
+    id: 89,
+    name: "Blue unique top with denim jeans and matching accessories",
+    price: "Ksh 1000",
+    image: "/img/1000074180.jpg",
+    category: ["outfits", "casual"],
+    color: "blue",
+  },
+  {
+    id: 90,
+    name: "Blue unique top with white pants",
+    price: "Ksh 1000",
+    image: "/img/1000074181.jpg",
+    category: ["outfits", "casual"],
+    color: "blue",
+  },
+  {
+    id: 91,
+    name: "Yellow top with a pair of blue denim jeans and matching accessories",
+    price: "Ksh 1000",
+    image: "/img/1000074182.jpg",
+    category: ["outfits", "casual"],
+    color: "yellow",
+  },
+  {
+    id: 92,
+    name: "Orange top with knee rugged denim jeans",
+    price: "Ksh 1000",
+    image: "/img/1000074183 (1).jpg",
+    category: ["outfits", "casual"],
+    color: "orange",
+  },
+  {
+    id: 93,
+    name: "Blue dress",
+    price: "Ksh 1000",
+    image: "/img/1000074184.jpg",
+    category: ["outfits", "casual"],
+    color: "blue",
+  },
+  {
+    id: 94,
+    name: "Orange top with blue denim jeans",
+    price: "Ksh 1000",
+    image: "/img/1000074185.jpg",
+    category: ["outfits", "casual"],
+    color: "orange",
+  },
 ];
 
 const Shop = () => {
+  const [filters, setFilters] = useState({ category: "all", color: "all" });
   const [filtered, setFiltered] = useState(allProducts);
 
   const handleFilterChange = (type, value) => {
-    if (value === "all") {
-      setFiltered(allProducts);
-    } else {
-      setFiltered(allProducts.filter((p) => p[type] === value));
-    }
+    const newFilters = { ...filters, [type]: value };
+    setFilters(newFilters);
   };
 
+  useEffect(() => {
+    const filteredList = allProducts.filter((product) => {
+      const matchCategory =
+        filters.category === "all" ||
+        (Array.isArray(product.category) &&
+          product.category.includes(filters.category));
+
+      const matchColor =
+        filters.color === "all" ||
+        product.color.toLowerCase().trim() ===
+          filters.color.toLowerCase().trim();
+
+      return matchCategory && matchColor;
+    });
+
+    setFiltered(filteredList);
+  }, [filters]);
+
   return (
-    <section className="shop-page bg-orange-100 min-h-screen pt-24">
+    <section className="shop-page bg-white min-h-screen pt-24">
       <Navbar />
 
       <div className="px-6 md:px-16">
