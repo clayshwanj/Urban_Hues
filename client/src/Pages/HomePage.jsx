@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import ProductCard from "../components/ProductCard";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -28,7 +28,6 @@ const HomePage = () => {
   return (
     <section className="home-page bg-white min-h-screen">
       <Navbar />
-
       {/* Hero Section */}
       <div
         className="relative w-full h-[150vh] bg-cover bg-center flex items-center justify-center text-amber-100"
