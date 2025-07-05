@@ -1,7 +1,8 @@
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import allProducts from "../data/products";
+import { useCart } from "../context/CartContext";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +14,8 @@ const Navbar = () => {
   const [filteredResults, setFilteredResults] = useState([]);
   const [showLogin, setShowLogin] = useState(false);
   const [showProfileDropdown, setShowProfileDropdown] = useState(false);
-  const [user, setUser] = useState(null); // mock user auth
+  const [user, setUser] = useState(null);
+  const { toggleCart, cartItems } = useCart();
 
   const profileRef = useRef();
   const searchRef = useRef();
@@ -93,10 +95,16 @@ const Navbar = () => {
               </span>
               <span
                 title="Cart"
-                onClick={() => setShowLogin(true)}
-                className="cursor-pointer"
+                onClick={() => {
+                  setShowLogin(true);
+                  toggleCart();
+                }}
+                className="cursor-pointer  relative"
               >
                 🛒
+                <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-bold w-5 h-5 rounded-full flex items-center justify-center">
+                  {cartItems.length}
+                </span>
               </span>
               <div ref={profileRef} className="relative">
                 <span
@@ -166,13 +174,66 @@ const Navbar = () => {
               Contact
             </Link>
             <div className="flex space-x-6 text-xl mt-2 pl-2">
-              <span title="Search" onClick={() => setShowSearch(true)}>
+              <span
+                title="Search"
+                onClick={() => setShowSearch(true)}
+                className="cursor-pointer"
+              >
                 🔍
               </span>
-              <span title="Cart" onClick={() => setShowLogin(true)}>
+              <span
+                title="Cart"
+                onClick={() => {
+                  setShowLogin(true);
+                  toggleCart();
+                }}
+                className="cursor-pointer  relative"
+              >
                 🛒
+                <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-bold w-5 h-5 rounded-full flex items-center justify-center">
+                  {cartItems.length}
+                </span>
               </span>
-              <span title="Profile">👤</span>
+
+              <div ref={profileRef} className="relative">
+                <span
+                  title="Profile"
+                  onClick={() => setShowProfileDropdown(!showProfileDropdown)}
+                  onMouseEnter={() => setShowProfileDropdown(true)}
+                  className="cursor-pointer"
+                >
+                  👤
+                </span>
+                {showProfileDropdown && (
+                  <div className="absolute right-0 mt-2 bg-white border shadow-lg rounded-md w-40 z-50 text-sm p-2 space-y-1">
+                    <p className="hover:bg-gray-100 p-2 cursor-pointer">
+                      Profile
+                    </p>
+                    <p className="hover:bg-gray-100 p-2 cursor-pointer">
+                      Orders
+                    </p>
+                    <p className="hover:bg-gray-100 p-2 cursor-pointer">
+                      Buy Again
+                    </p>
+                    <p className="hover:bg-gray-100 p-2 cursor-pointer">
+                      Receipts
+                    </p>
+                    <p
+                      className="hover:bg-gray-100 p-2 cursor-pointer"
+                      onClick={() => {
+                        if (user) {
+                          setUser(null);
+                          alert("Logged out");
+                        } else {
+                          setShowLogin(true);
+                        }
+                      }}
+                    >
+                      {user ? "Logout" : "Login"}
+                    </p>
+                  </div>
+                )}
+              </div>
             </div>
           </div>
         )}
@@ -202,7 +263,7 @@ const Navbar = () => {
                 }
               }}
               placeholder="Search..."
-              className="w-full p-2 border border-gray-300 rounded shadow"
+              className="w-full p-2 border bg-white border-b-black rounded shadow"
             />
           </form>
 

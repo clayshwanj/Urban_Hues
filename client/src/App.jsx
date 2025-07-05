@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./Pages/HomePage.jsx";
 import Shop from "./Pages/Shop.jsx";
 import Contact from "./Pages/Contact.jsx";
+import CartSidebar from "./components/Sidebar";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route path="/Contact" element={<Contact />} />
           </Routes>
         </main>
+        <CartSidebar />
       </div>
     </Router>
   );
