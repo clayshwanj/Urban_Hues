@@ -50,6 +50,8 @@ const Navbar = () => {
     setFilteredResults([]);
     alert(`Searching for "${searchQuery}"`);
   };
+  // Total number of items in the cart
+  const totalItems = cartItems.reduce((sum, item) => sum + item.quantity, 0);
 
   return (
     <>
@@ -103,7 +105,7 @@ const Navbar = () => {
               >
                 🛒
                 <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-bold w-5 h-5 rounded-full flex items-center justify-center">
-                  {cartItems.length}
+                  {totalItems}
                 </span>
               </span>
               <div ref={profileRef} className="relative">
@@ -191,7 +193,7 @@ const Navbar = () => {
               >
                 🛒
                 <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-bold w-5 h-5 rounded-full flex items-center justify-center">
-                  {cartItems.length}
+                  {totalItems}
                 </span>
               </span>
 

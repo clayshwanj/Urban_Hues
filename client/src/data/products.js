@@ -2,7 +2,7 @@ const allProducts = [
   {
     id: 1,
     name: "Elegant Black Jumpsuit",
-    price: "$49.99",
+    price: "Ksh1200",
     image: "/img/53860e55-77c4-4e11-bef8-bcbe2681b28f.jpeg",
     category: ["sweater", "casual"],
     color: "green",
@@ -10,7 +10,7 @@ const allProducts = [
   {
     id: 2,
     name: "Classic Green blouse",
-    price: "$89.99",
+    price: "Ksh1500",
     image: "/img/f41fe965-eb24-46e0-85b3-6747b8e3f06c.jpeg",
     category: ["blouse", "casual"],
     color: "green",
@@ -18,7 +18,7 @@ const allProducts = [
   {
     id: 3,
     name: "Floral Summer Dress",
-    price: "$59.99",
+    price: "Ksh2500",
     image: "/img/8284bb7c-0d90-4f27-91b1-78f999a53931.jpeg",
     category: ["blouse", "formal"],
     color: "stripes",
@@ -26,7 +26,7 @@ const allProducts = [
   {
     id: 4,
     name: "Plaid romper",
-    price: "Ksh1200",
+    price: "Ksh3500",
     image: "/img/Plaid rompa.jpeg",
     category: ["romper", "casual"],
     color: "brown",
@@ -35,7 +35,7 @@ const allProducts = [
   {
     id: 5,
     name: "Short Mini Dress",
-    price: "$35.00",
+    price: "Ksh 2000",
     image:
       "/img/Women's Autumn_Winter College Style Minimalist Sexy Off Shoulder Color Block Waist Fitted Short Mini Dress.jpeg",
     category: ["dresses", "formal"],
@@ -44,7 +44,7 @@ const allProducts = [
   {
     id: 6,
     name: "Wine Red Dress",
-    price: "$35.00",
+    price: "Ksh 2200",
     image: "/img/wine red dress.jpeg",
     category: ["dresses", "casual"],
     color: "red",
@@ -52,7 +52,7 @@ const allProducts = [
   {
     id: 7,
     name: "Black off-shoulder jumpsuit",
-    price: "Ksh 700",
+    price: "Ksh 2700",
     image: "/img/Black Halo Yoli Jumpsuit.jpeg",
     category: ["jumpsuit", "formal"],
     color: "black",
@@ -60,7 +60,7 @@ const allProducts = [
   {
     id: 8,
     name: "Palazo pants",
-    price: "Ksh 1000",
+    price: "Ksh 2000",
     image:
       "/img/Martin Grant Fashion Collections For Women _ Moda Operandi.jpeg",
     category: ["pants", "formal"],
@@ -69,7 +69,7 @@ const allProducts = [
   {
     id: 9,
     name: "Navy blue pants",
-    price: "Ksh 700",
+    price: "Ksh 1500",
     image: "/img/♡.jpeg",
     category: ["pants", "formal"],
     color: "blue",
@@ -77,7 +77,7 @@ const allProducts = [
   {
     id: 10,
     name: "Blouse",
-    price: "Ksh 1000",
+    price: "Ksh 2300",
     image: "/img/8df879d4-eef8-42a8-b49d-10db518fd7bd.jpeg",
     category: ["blouse", "elegant"],
     color: "beige",
@@ -85,7 +85,7 @@ const allProducts = [
   {
     id: 11,
     name: "Off-shoulder sweater",
-    price: "Ksh 1000",
+    price: "Ksh 4000",
     image: "/img/Green off shoulder.jpeg",
     category: ["sweater", "casual"],
     color: "green",
@@ -93,7 +93,7 @@ const allProducts = [
   {
     id: 12,
     name: "Cider Fuzzy Cropped Cardigan With Cami",
-    price: "$39.99",
+    price: "Ksh 2700",
     image:
       "/img/Cider Sweaters _ Cider Fuzzy Cropped Cardigan With Cami In Purple.jpeg",
     category: ["sweater", "casual"],
@@ -102,7 +102,7 @@ const allProducts = [
   {
     id: 13,
     name: "Royal Blue pants",
-    price: "Ksh 1000",
+    price: "Ksh 2100",
     image:
       "/img/Zuhair Murad Fashion Collections For Women _ Moda Operandi.jpeg",
     category: ["pants", "formal"],
@@ -111,7 +111,7 @@ const allProducts = [
   {
     id: 14,
     name: "Plaid pants",
-    price: "Ksh 1000",
+    price: "Ksh 2000",
     image: "/img/Plaid pants.jpeg",
     category: ["pants", "formal"],
     color: "plaid",
@@ -119,7 +119,7 @@ const allProducts = [
   {
     id: 15,
     name: "Pastel pants",
-    price: "Ksh 1000",
+    price: "Ksh 4500",
     image: "/img/Women's Designer Pants _ Moda Operandi.jpeg",
     category: ["pants", "elegant", "formal"],
     color: "pink",
@@ -128,7 +128,7 @@ const allProducts = [
   {
     id: 16,
     name: "Pastel pants",
-    price: "Ksh 1000",
+    price: "Ksh 5000",
     image: "/img/84c1ca6f-0ed4-4fb0-aab4-3d7839c0e97f.jpeg",
     category: ["pants", "elegant"],
     color: "purple",
@@ -136,7 +136,7 @@ const allProducts = [
   {
     id: 17,
     name: "Pastel pants",
-    price: "Ksh 1000",
+    price: "Ksh 4000",
     image: "/img/0d94ae08-1529-4a58-bec8-cbd5e71b59bc.jpeg",
     category: ["pants", "formal"],
     color: "green",
@@ -144,7 +144,7 @@ const allProducts = [
   {
     id: 18,
     name: "Jumpsuit",
-    price: "Ksh 1000",
+    price: "Ksh  3000",
     image: "/img/Jumpsuitblack.jpeg",
     category: ["jumpsuit", "formal"],
     color: "black",
@@ -152,7 +152,7 @@ const allProducts = [
   {
     id: 19,
     name: "Silk wrap top",
-    price: "Ksh 1000",
+    price: "Ksh 4000",
     image: "/img/Silk Wrap Top.jpeg",
     category: ["blouse", "formal"],
     color: "green",
@@ -160,7 +160,7 @@ const allProducts = [
   {
     id: 20,
     name: "Chiffon blouse",
-    price: "Ksh 1000",
+    price: 6000,
     image: "/img/74d33979-d00c-4c2d-b6fa-ec2f9f42c0e1.jpeg",
     category: ["blouse", "formal", "casual"],
     color: "beige",
@@ -168,7 +168,7 @@ const allProducts = [
   {
     id: 21,
     name: "Vintage blouse",
-    price: "Ksh 1000",
+    price: "Ksh 6500",
     image:
       "/img/Retro Vintage Clothes Crossed Frenulum Drawstring Side Crop Tank Top (1).jpeg",
     category: ["blouse", "casual"],
@@ -177,7 +177,7 @@ const allProducts = [
   {
     id: 22,
     name: "Sweater top",
-    price: "Ksh 1000",
+    price: "Ksh 5000",
     image: "/img/bcef861d-c9ed-47d9-a815-d58466a16eaf.jpeg",
     category: ["sweater", "casual"],
     color: "blue",
@@ -185,7 +185,7 @@ const allProducts = [
   {
     id: 23,
     name: "Skater dress",
-    price: "Ksh 1000",
+    price: "Ksh 1800",
     image: "/img/Ruched Strappy Zipper Sleeveless Mini Dress.jpeg",
     category: ["dress", "casual"],
     color: "green",
@@ -194,31 +194,31 @@ const allProducts = [
   {
     id: 24,
     name: "Maroon Dress",
-    price: "Ksh 1000",
+    price: "Ksh 2700",
     image: "/img/maroon dress.jpeg",
     category: ["dresses", "formal"],
     color: "red",
   },
   {
     id: 25,
-    name: "Strapped Dress",
-    price: "Ksh 1000",
+    name: "Strapped dress",
+    price: "Ksh 3200",
     image: "/img/brown.jpeg",
     category: ["dresses", "casual"],
     color: "brown",
   },
   {
     id: 26,
-    name: "Off-shoulderromper",
-    price: "Ksh 1000",
+    name: "Off-shoulder checked romper",
+    price: "Ksh 2500",
     image: "/img/Luxury fashion & independent designers _ SSENSE.jpeg",
     category: ["romper", "casual"],
     color: "checked",
   },
   {
     id: 27,
-    name: "Cropped classy blouse",
-    price: "Ksh 1000",
+    name: "Cropped Classy blouse",
+    price: "Ksh 1200",
     image: "/img/6f84d512-351d-42f8-8222-4693d97a45ba.jpeg",
     category: ["blouse", "casual"],
     color: "white",
@@ -226,7 +226,7 @@ const allProducts = [
   {
     id: 28,
     name: "Denim Top With Puff Sleeves And Bow Tie Detail",
-    price: "Ksh 1000",
+    price: "Ksh 2000",
     image:
       "/img/Plus Size Denim Top With Puff Sleeves And Bow Tie Detail, Blue.jpeg",
     category: ["blouse", "casual"],
@@ -235,7 +235,7 @@ const allProducts = [
   {
     id: 29,
     name: "Plaid Print Knot Shoulder Peplum Cami Top",
-    price: "Ksh 1000",
+    price: "Ksh 1100",
     image: "/img/Plaid Print Knot Shoulder Peplum Cami Top.jpeg",
     category: ["blouse", "casual"],
     color: "checked",
@@ -243,7 +243,7 @@ const allProducts = [
   {
     id: 30,
     name: "Plaid top with puffy sleeves",
-    price: "Ksh 1000",
+    price: "Ksh 3800",
     image: "/img/plaid top.jpeg",
     category: ["blouse", "casual"],
     color: "checked",
@@ -251,7 +251,7 @@ const allProducts = [
   {
     id: 31,
     name: "Crop Tank Top In Maroon",
-    price: "Ksh 1000",
+    price: "Ksh 2400",
     image: "/img/Crop Tank Top In Maroon.jpeg",
     category: ["blouse", "casual"],
     color: "red",
@@ -259,7 +259,7 @@ const allProducts = [
   {
     id: 32,
     name: "Formal Blue Dress",
-    price: "Ksh 1000",
+    price: "Ksh 4600",
     image: "/img/SHEIN.jpeg",
     category: ["dresses", "formal"],
     color: "stripes",
@@ -267,7 +267,7 @@ const allProducts = [
   {
     id: 33,
     name: "Goth Long Sleeve Dress",
-    price: "Ksh 1000",
+    price: "Ksh2200",
     image:
       "/img/Goth Long Sleeve Dress Gothic Harajuku Vintage Plaid Wrap Balck Mini Dress Retro Pleated Punk Long Sleeve Dark.jpeg",
     category: ["dresses", "casual"],
@@ -276,7 +276,7 @@ const allProducts = [
   {
     id: 34,
     name: "Two-Piece Cold-Shoulder Wrap Knit Dress",
-    price: "Ksh 1000",
+    price: "Ksh2800",
     image:
       "/img/Fake Two-Piece Cold-Shoulder Wrap Knit Dress in Taupe grey.jpeg",
     category: ["dresses", "casual"],
@@ -285,7 +285,7 @@ const allProducts = [
   {
     id: 35,
     name: "Off-shoulder sweater",
-    price: "Ksh 1000",
+    price: "Ksh 3000",
     image: "/img/f5e397b3-e3bc-40b8-ab0d-ee985f21b52a.jpeg",
     category: ["sweater", "casual"],
     color: "green",
@@ -293,7 +293,7 @@ const allProducts = [
   {
     id: 36,
     name: "Summer dress",
-    price: "Ksh 1000",
+    price: "Ksh 1800",
     image: "/img/Stripes.jpeg",
     category: ["dresses", "casual"],
     color: "stripes",
@@ -301,7 +301,7 @@ const allProducts = [
   {
     id: 37,
     name: "Off-shoulder top",
-    price: "Ksh 1000",
+    price: "Ksh 2700",
     image: "/img/921b01f2-c30c-4aaf-9d98-379ffdee2015.jpeg",
     category: ["blouse", "casual"],
     color: "checked",
@@ -309,7 +309,7 @@ const allProducts = [
   {
     id: 38,
     name: "Draped Neck Pleated Slim Fit Tank Top ",
-    price: "Ksh 1000",
+    price: "Ksh 2100",
     image:
       "/img/Plus Size Women's Summer Solid Color Draped Neck Pleated Slim Fit Tank Top (1).jpeg",
     category: ["blouse", "casual"],
@@ -318,7 +318,7 @@ const allProducts = [
   {
     id: 39,
     name: "Sleeveless blouse",
-    price: "Ksh 1000",
+    price: "Ksh 3500",
     image: "/img/a2f6aaa1-9acb-478a-bb17-53bedd36d071.jpeg",
     category: ["blouse", "casual"],
     color: "stripes",
@@ -334,7 +334,7 @@ const allProducts = [
   {
     id: 41,
     name: "Sleeveless blouse",
-    price: "Ksh 1000",
+    price: "Ksh 1200",
     image:
       "/img/Women Tie Back Simple Denim Crop Top, Casual Everyday Wear.jpeg",
     category: ["blouse", "casual"],
@@ -343,7 +343,7 @@ const allProducts = [
   {
     id: 42,
     name: "Women's Lace Up Front Button Up Crop Tank Top",
-    price: "Ksh 1000",
+    price: "Ksh 4700",
     image: "/img/Women's Lace Up Front Button Up Crop Tank Top.jpeg",
     category: ["blouse", "casual"],
     color: "green",
@@ -351,7 +351,7 @@ const allProducts = [
   {
     id: 43,
     name: "Blue striped blouse",
-    price: "Ksh 1000",
+    price: "Ksh 1200",
     image: "/img/0d1c19b5-292e-4ca9-b9a3-6abd538cf343.jpeg",
     category: ["blouse", "formal"],
     color: "stripes",
@@ -359,7 +359,7 @@ const allProducts = [
   {
     id: 44,
     name: "Black romper",
-    price: "Ksh 1000",
+    price: "Ksh 2000",
     image: "/img/Black romper.jpeg",
     category: ["romper", "casual"],
     color: "black",
@@ -367,7 +367,7 @@ const allProducts = [
   {
     id: 45,
     name: " Khaki romper",
-    price: "Ksh 1000",
+    price: "Ksh 4400",
     image: "/img/Brown Khaki romper.jpeg",
     category: ["romper", "casual"],
     color: "brown",
@@ -375,7 +375,7 @@ const allProducts = [
   {
     id: 46,
     name: "Off-shoulder top",
-    price: "Ksh 1000",
+    price: "Ksh 3000",
     image: "/img/Women's Brandon Maxwell Fall_winter.jpeg",
     category: ["blouse", "formal"],
     color: "stripes",
@@ -383,7 +383,7 @@ const allProducts = [
   {
     id: 47,
     name: "Checked dress",
-    price: "Ksh 1000",
+    price: "Ksh 4000",
     image: "/img/Blue and whitechecked dress.jpeg",
     category: ["dresses", "casual"],
     color: "checked",
@@ -391,7 +391,7 @@ const allProducts = [
   {
     id: 48,
     name: "Blue Tribal pattern dress",
-    price: "Ksh 1000",
+    price: "Ksh 4800",
     image: "/img/Blue Tribal pattern dress.jpeg",
     category: ["dresses", "casual"],
     color: "checked",
@@ -400,7 +400,7 @@ const allProducts = [
   {
     id: 49,
     name: "Blue Formal blouse",
-    price: "Ksh 1000",
+    price: "Ksh 1700",
     image: "/img/614ca8d4-6a84-4909-a3b7-4cda4693c59c.jpeg",
     category: ["blouse", "formal"],
     color: "blue",
@@ -408,7 +408,7 @@ const allProducts = [
   {
     id: 50,
     name: "Frayed Edge Casual Romper",
-    price: "Ksh 1000",
+    price: "Ksh 2200",
     image: "/img/Frayed Edge Casual Jumpsuit.jpeg",
     category: ["romper", "casual"],
     color: "stripes",
@@ -425,7 +425,7 @@ const allProducts = [
   {
     id: 52,
     name: "Retro Vintage Crossed Frenulum Drawstring Side Crop Tank Top",
-    price: "Ksh 1000",
+    price: "Ksh 4700",
     image:
       "/img/Retro Vintage Clothes Crossed Frenulum Drawstring Side Crop Tank Top.jpeg",
     category: ["blouse", "casual"],
@@ -434,7 +434,7 @@ const allProducts = [
   {
     id: 53,
     name: "Checked dress",
-    price: "Ksh 1000",
+    price: "Ksh 1100",
     image: "/img/Checked dress.jpeg",
     category: ["dresses", "casual"],
     color: "checked",
@@ -442,7 +442,7 @@ const allProducts = [
   {
     id: 54,
     name: "Woolen romper",
-    price: "Ksh 1000",
+    price: "Ksh 4200",
     image: "/img/Sweater romper.jpeg",
     category: ["romper", "casual"],
     color: "beige",
@@ -450,7 +450,7 @@ const allProducts = [
   {
     id: 55,
     name: "Brown Formal pants",
-    price: "Ksh 1000",
+    price: "Ksh 1800",
     image: "/img/brown pants.jpeg",
     category: ["pants", "formal"],
     color: "brown",
@@ -458,7 +458,7 @@ const allProducts = [
   {
     id: 56,
     name: "Silk Blouse",
-    price: "Ksh 1000",
+    price: "Ksh 3700",
     image: "/img/Rasario Fashion Collections For Women _ Moda Operandi.jpeg",
     category: ["blouse", "formal", "elegant"],
     color: "blue",
@@ -466,7 +466,7 @@ const allProducts = [
   {
     id: 57,
     name: "Brown checked pants",
-    price: "Ksh 1000",
+    price: "Ksh 2800",
     image: "/img/0f29ac69-5120-49c7-9eb3-0ddd37c5ad9b.jpeg",
     category: ["pants", "formal"],
     color: "brown",
@@ -474,7 +474,7 @@ const allProducts = [
   {
     id: 58,
     name: "Offshoulder romper",
-    price: "Ksh 1000",
+    price: "Ksh 3000",
     image: "/img/Offshoulder romper.jpeg",
     category: ["romper", "casual"],
     color: "stripes",
@@ -482,7 +482,7 @@ const allProducts = [
   {
     id: 59,
     name: "Blouse with puffy long sleeves",
-    price: "Ksh 1000",
+    price: "Ksh 1300",
     image: "/img/17297cee-d6b3-4764-963f-8b116239681d.jpeg",
     category: ["blouse", "casual"],
     color: "beige",
@@ -490,7 +490,7 @@ const allProducts = [
   {
     id: 60,
     name: "Offshoulder with puffy sleeves",
-    price: "Ksh 1000",
+    price: "Ksh 3200",
     image: "/img/Offshoulder with puffy sleeves.jpeg",
     category: ["blouse", , "casual"],
     color: "checked",
@@ -498,7 +498,7 @@ const allProducts = [
   {
     id: 61,
     name: "Striped multicolored dress",
-    price: "Ksh 1000",
+    price: "Ksh 4600",
     image: "/img/Striped multicolored dress.jpeg",
     category: ["dresses", "casual", "formal"],
     color: "stripes",
@@ -506,7 +506,7 @@ const allProducts = [
   {
     id: 62,
     name: "Black Tribal patterned dress",
-    price: "Ksh 1000",
+    price: "Ksh 5500",
     image: "/img/Tribal dress.jpeg",
     category: ["dresses", "casual"],
     color: "black",
@@ -514,7 +514,7 @@ const allProducts = [
   {
     id: 63,
     name: "Black one shoulder peplam",
-    price: "Ksh 1000",
+    price: "Ksh 2000",
     image: "/img/Black one shoulder peplam.jpeg",
     category: ["blouse", "casual", "formal"],
     color: "black",
@@ -522,7 +522,7 @@ const allProducts = [
   {
     id: 64,
     name: "Checked dress",
-    price: "Ksh 1000",
+    price: "Ksh 3300",
     image: "/img/♡̶.jpeg",
     category: ["dresses", "casual"],
     color: "checked",
@@ -530,7 +530,7 @@ const allProducts = [
   {
     id: 65,
     name: "Top and skirt",
-    price: "Ksh 1000",
+    price: "Ksh 4400",
     image: "/img/Jeans.jpeg",
     category: ["skirt", "casual"],
     color: "stripes",
@@ -538,7 +538,7 @@ const allProducts = [
   {
     id: 66,
     name: "White jumpsuit",
-    price: "Ksh 1000",
+    price: "Ksh 3000",
     image: "/img/White jumpsuit.jpeg",
     category: ["jumpsuit", "formal"],
     color: "white",
@@ -547,16 +547,16 @@ const allProducts = [
   {
     id: 67,
     name: "Mint colored green pants",
-    price: "Ksh 1000",
+    price: "Ksh 2900",
     image:
       "/img/Here's Proof That Vests Are Making A _Very_ Stylish Comeback.jpeg",
-    category: ["Pants", "formal", "elegant"],
+    category: ["pants", "formal", "elegant"],
     color: "green",
   },
   {
     id: 68,
     name: "Wine Red Summer Dress",
-    price: "Ksh 1000",
+    price: "Ksh 3100",
     image: "/img/1d09bdc95b83e645f3a138198e79add3.jpg",
     category: ["dresses", "casual"],
     color: "red",
@@ -564,7 +564,7 @@ const allProducts = [
   {
     id: 69,
     name: "Grey Woollen Dress",
-    price: "Ksh 1000",
+    price: "Ksh 2500",
     image: "/img/2128127e089d0bf63f9977b42e1d26ad.jpg",
     category: ["dresses", "casual"],
     color: "grey",
@@ -572,7 +572,7 @@ const allProducts = [
   {
     id: 70,
     name: "Red Summer Dress",
-    price: "Ksh 1000",
+    price: "Ksh 4200",
     image: "/img/75c7cb3ce81090be07ce7663c23dd956.jpg",
     category: ["dresses", "casual"],
     color: " red",
@@ -580,7 +580,7 @@ const allProducts = [
   {
     id: 71,
     name: "Girly casual drip",
-    price: "Ksh 1000",
+    price: "Ksh 11000",
     image: "/img/b9e8129b-6da1-4b64-8fca-1507130ccefd.jpeg",
     category: ["outfits", "casual"],
     color: "grey",
@@ -588,7 +588,7 @@ const allProducts = [
   {
     id: 72,
     name: "Girly but formal drip",
-    price: "Ksh 1000",
+    price: "Ksh 7000",
     image: "/img/Styles By Na's Amazon Page.jpeg",
     category: ["outfits", "formal", "elegant"],
     color: "green",
@@ -596,7 +596,7 @@ const allProducts = [
   {
     id: 73,
     name: "Blue top with a pair of denim pants and matching accessories",
-    price: "Ksh 1000",
+    price: "Ksh 6800",
     image: "/img/725b73be-4ad9-4ef3-8fbf-c00119fcc081.jpeg",
     category: ["outfits", "casual"],
     color: "blue",
@@ -604,7 +604,7 @@ const allProducts = [
   {
     id: 74,
     name: "Girly casual drip",
-    price: "Ksh 1000",
+    price: "Ksh 8200",
     image: "/img/4316a216-421c-4ce1-8e58-303e7cc9f100.jpeg",
     category: ["outfits", "casual", "elegant"],
     color: "green",
@@ -612,15 +612,15 @@ const allProducts = [
   {
     id: 75,
     name: "Girly Formal drip",
-    price: "Ksh 1000",
+    price: "Ksh 10000",
     image: "/img/Brown and white outfit.jpeg",
-    category: ["outfits", "casual"],
+    category: ["outfits", "casual", "formal"],
     color: "beige",
   },
   {
     id: 76,
     name: "Girly Formal drip",
-    price: "Ksh 1000",
+    price: "Ksh 7600",
     image: "/img/3fcfe3ff-3845-469f-961b-55ed97ed60f5.jpeg",
     category: ["outfits", "formal", "elegant"],
     color: "green",
@@ -628,7 +628,7 @@ const allProducts = [
   {
     id: 77,
     name: "Girly but formal drip",
-    price: "Ksh 1000",
+    price: "Ksh 12000",
     image: "/img/517ad041-d73c-4d47-81ca-b44b91bb70f0.jpeg",
     category: ["outfits", "formal", "elegant"],
     color: "pink",
@@ -636,7 +636,7 @@ const allProducts = [
   {
     id: 78,
     name: "Girly casual drip",
-    price: "Ksh 1000",
+    price: "Ksh 14000",
     image: "/img/Summer aesthetic.jpeg",
     category: ["outfits", "casual", "elegant"],
     color: "pink",
@@ -644,7 +644,7 @@ const allProducts = [
   {
     id: 79,
     name: "Yellow top and accessories with a pair of stylish jeans",
-    price: "Ksh 1000",
+    price: "Ksh 8500",
     image: "/img/1000074171.jpg",
     category: ["outfits", "casual"],
     color: "yellow",
@@ -652,7 +652,7 @@ const allProducts = [
   {
     id: 80,
     name: "Go green",
-    price: "Ksh 1000",
+    price: "Ksh 9200",
     image: "/img/1000074174.jpg",
     category: ["outfits", "casual"],
     color: "green",
@@ -660,7 +660,7 @@ const allProducts = [
   {
     id: 81,
     name: "Mustard T-shirt and cream colored pants with accessories",
-    price: "Ksh 1000",
+    price: "Ksh 7800",
     image: "/img/1000074172.jpg",
     category: ["outfits", "casual"],
     color: "yellow",
@@ -668,7 +668,7 @@ const allProducts = [
   {
     id: 82,
     name: "Rocking outfit",
-    price: "Ksh 1000",
+    price: "Ksh 13000",
     image: "/img/1000074173.jpg",
     category: ["outfits", "formal", "elegant"],
     color: "brown",
@@ -676,7 +676,7 @@ const allProducts = [
   {
     id: 83,
     name: "Teenager outfits",
-    price: "Ksh 1000",
+    price: "Ksh 11000",
     image: "/img/1000074170.jpg",
     category: ["outfits", "casual"],
     color: "yellow",
@@ -684,7 +684,7 @@ const allProducts = [
   {
     id: 84,
     name: "Girly and pink",
-    price: "Ksh 1000",
+    price: "Ksh 16000",
     image: "/img/1000074175.jpg",
     category: ["outfits", "casual"],
     color: "pink",
@@ -692,7 +692,7 @@ const allProducts = [
   {
     id: 85,
     name: "Cool Outfit",
-    price: "Ksh 1000",
+    price: "Ksh 17000",
     image: "/img/1000074177.jpg",
     category: ["outfits", "casual"],
     color: "blue",
@@ -700,7 +700,7 @@ const allProducts = [
   {
     id: 86,
     name: "Tangerine Inspired",
-    price: "Ksh 1000",
+    price: "Ksh 14000",
     image: "/img/1000074176.jpg",
     category: ["outfits", "casual"],
     color: "orange",
@@ -708,7 +708,7 @@ const allProducts = [
   {
     id: 87,
     name: "Yellow sleeveless top with a pair of denim jeans",
-    price: "Ksh 1000",
+    price: "Ksh 19000",
     image: "/img/1000074178.jpg",
     category: ["outfits", "casual"],
     color: "yellow",
@@ -716,7 +716,7 @@ const allProducts = [
   {
     id: 88,
     name: "Mustard yellow t-shirt with jeans with accessories",
-    price: "Ksh 1000",
+    price: "Ksh 13000",
     image: "/img/1000074179.jpg",
     category: ["outfits", "casual"],
     color: "yellow",
@@ -724,7 +724,7 @@ const allProducts = [
   {
     id: 89,
     name: "Blue unique top with denim jeans and matching accessories",
-    price: "Ksh 1000",
+    price: "Ksh 16000",
     image: "/img/1000074180.jpg",
     category: ["outfits", "casual"],
     color: "blue",
@@ -732,7 +732,7 @@ const allProducts = [
   {
     id: 90,
     name: "Blue unique top with white pants",
-    price: "Ksh 1000",
+    price: "Ksh 8800",
     image: "/img/1000074181.jpg",
     category: ["outfits", "casual"],
     color: "blue",
@@ -740,7 +740,7 @@ const allProducts = [
   {
     id: 91,
     name: "Yellow top with a pair of blue denim jeans and matching accessories",
-    price: "Ksh 1000",
+    price: "Ksh 5800",
     image: "/img/1000074182.jpg",
     category: ["outfits", "casual"],
     color: "yellow",
@@ -748,7 +748,7 @@ const allProducts = [
   {
     id: 92,
     name: "Orange top with knee rugged denim jeans",
-    price: "Ksh 1000",
+    price: "Ksh 9500",
     image: "/img/1000074183 (1).jpg",
     category: ["outfits", "casual"],
     color: "orange",
@@ -756,7 +756,7 @@ const allProducts = [
   {
     id: 93,
     name: "Blue dress",
-    price: "Ksh 1000",
+    price: "Ksh 8950",
     image: "/img/1000074184.jpg",
     category: ["outfits", "casual"],
     color: "blue",
@@ -764,7 +764,7 @@ const allProducts = [
   {
     id: 94,
     name: "Orange top with blue denim jeans",
-    price: "Ksh 1000",
+    price: "Ksh 7700",
     image: "/img/1000074185.jpg",
     category: ["outfits", "casual"],
     color: "orange",
@@ -772,7 +772,7 @@ const allProducts = [
   {
     id: 95,
     name: " Casual Sporty Baseball Jersey, Letter & Number Printed V-Neck T-Shirt",
-    price: "Ksh 1000",
+    price: "Ksh 17000",
     image:
       "/img/Tween Girl' Casual Sporty Baseball Jersey, Letter & Number Printed V-Neck T-Shirt.jpeg",
     category: ["outfits", "casual"],
@@ -781,7 +781,7 @@ const allProducts = [
   {
     id: 96,
     name: "Pink top with mom jeans",
-    price: "Ksh 1000",
+    price: "Ksh 12000",
     image: "/img/my closet.jpeg",
     category: ["outfits", "casual"],
     color: "pink",
@@ -789,7 +789,7 @@ const allProducts = [
   {
     id: 97,
     name: "Lace Up Front Skirt",
-    price: "Ksh 1000",
+    price: "Ksh 1400",
     image: "/img/Lace Up Front Skort.jpeg",
     category: ["skirt", "casual"],
     color: "red",
@@ -797,7 +797,7 @@ const allProducts = [
   {
     id: 98,
     name: "Kawaii Plus Size Bow Decor Lantern",
-    price: "Ksh 1000",
+    price: "Ksh 1500",
     image: "/img/ROMWE Kawaii Kawaii Plus Size Bow Decor Lantern….jpeg",
     category: ["sweater", "casual"],
     color: "red",
@@ -805,7 +805,7 @@ const allProducts = [
   {
     id: 99,
     name: "Blue cardigan with cloud prints",
-    price: "Ksh 1000",
+    price: "Ksh 1100",
     image: "/img/Women's Bottoms _ Pants, Skirts, Shorts & Leggings.jpeg",
     category: ["sweater", "casual"],
     color: "blue",
@@ -813,7 +813,7 @@ const allProducts = [
   {
     id: 100,
     name: "Hoodie and sweat pants",
-    price: "Ksh 1000",
+    price: "Ksh 9500",
     image: "/img/SHEIN (1).jpeg",
     category: ["outfits", "casual"],
     color: "blue",
@@ -821,7 +821,7 @@ const allProducts = [
   {
     id: 101,
     name: "Purple Knitted Basketball Jersey Set With Shorts And Vest",
-    price: "Ksh 1000",
+    price: "Ksh 18000",
     image: "/img/Purple Knitted Basketball Jersey.jpeg",
     category: ["outfits", "casual"],
     color: "purple",
@@ -829,7 +829,7 @@ const allProducts = [
   {
     id: 102,
     name: "Blue Top with jeans",
-    price: "Ksh 1000",
+    price: "Ksh 14000",
     image: "/img/🤍🌊🩵🎧.jpeg",
     category: ["outfits", "casual"],
     color: "blue",
@@ -837,7 +837,7 @@ const allProducts = [
   {
     id: 103,
     name: "Formal outfit",
-    price: "Ksh 1000",
+    price: "Ksh 17000",
     image: "/img/3d6a38ff-f4e1-4126-9772-bb98b72ede44.jpeg",
     category: ["outfits", "formal"],
     color: "white",
@@ -845,7 +845,7 @@ const allProducts = [
   {
     id: 104,
     name: "Red Dungaree with matching sweater ",
-    price: "Ksh 1000",
+    price: "Ksh 13000",
     image: "/img/4a3285d8-be76-4375-b525-d1e1f1ad6c3d.jpeg",
     category: ["outfits", "casual"],
     color: "red",
@@ -853,7 +853,7 @@ const allProducts = [
   {
     id: 105,
     name: "Cropped sweater with matching khaki pants and shoes",
-    price: "Ksh 1000",
+    price: "Ksh 12000",
     image: "/img/7d3bf0e3-1248-4f89-b93d-06ca5e9714db.jpeg",
     category: ["outfits", "casual"],
     color: "brown",
@@ -861,7 +861,7 @@ const allProducts = [
   {
     id: 106,
     name: "Pink blouse with floral printed denim pants",
-    price: "Ksh 1000",
+    price: "Ksh 19000",
     image: "/img/89c0afaf-d574-4ec7-bc8e-86572fc388c2.jpeg",
     category: ["outfits", "casual"],
     color: "pink",
@@ -869,7 +869,7 @@ const allProducts = [
   {
     id: 107,
     name: "Blue outfit and accessories",
-    price: "Ksh 1000",
+    price: "Ksh 15000",
     image: "/img/27be1ec4-95c4-4415-8a73-97acec4a4b99.jpeg",
     category: ["outfits", "casual"],
     color: "blue",
@@ -877,7 +877,7 @@ const allProducts = [
   {
     id: 108,
     name: "Matching purple dress,sweater and accessories",
-    price: "Ksh 1000",
+    price: "Ksh 13000",
     image: "/img/40e19e8e-7a24-4c0b-beb3-9d893ac947be.jpeg",
     category: ["outfits", "casual"],
     color: "purple",
@@ -885,7 +885,7 @@ const allProducts = [
   {
     id: 109,
     name: "Pastel Formal dress",
-    price: "Ksh 1000",
+    price: "Ksh 4300",
     image: "/img/70a2ac8b-071d-4eef-aa11-8051a4e10ac0.jpeg",
     category: ["dresses", "formal"],
     color: "blue",
@@ -893,7 +893,7 @@ const allProducts = [
   {
     id: 110,
     name: "Off-shoulder dress",
-    price: "Ksh 1000",
+    price: "Ksh 3700",
     image: "/img/09b30323-dabc-4a0c-9243-d8707818e0ef.jpeg",
     category: ["dresses", "casual"],
     color: "white",
@@ -901,7 +901,7 @@ const allProducts = [
   {
     id: 111,
     name: "Sweater",
-    price: "Ksh 1000",
+    price: "Ksh 2400",
     image: "/img/99a145a4-4f03-49e2-8915-7ea798e5ab3f.jpeg",
     category: ["sweater", "casual"],
     color: "purple",
@@ -909,7 +909,7 @@ const allProducts = [
   {
     id: 112,
     name: "Leopard print layered dress",
-    price: "Ksh 1000",
+    price: "Ksh 1700",
     image: "/img/1000074009.jpg",
     category: ["dresses", "casual"],
     color: "brown",
@@ -917,7 +917,7 @@ const allProducts = [
   {
     id: 113,
     name: "Cool Sweater",
-    price: "Ksh 1000",
+    price: "Ksh 2100",
     image: "/img/726ff52d-139d-4502-b61b-fb4b1051763b.jpeg",
     category: ["sweater", "casual"],
     color: "white",
@@ -925,7 +925,7 @@ const allProducts = [
   {
     id: 114,
     name: "Brown ,Beige and Black pattern",
-    price: "Ksh 1000",
+    price: "Ksh 4000",
     image: "/img/692806bf-1f5a-4f04-bb56-7185224d3d15.jpeg",
     category: ["sweater", "casual"],
     color: "beige",
@@ -933,7 +933,7 @@ const allProducts = [
   {
     id: 115,
     name: "Floral print purple sweater",
-    price: "Ksh 1000",
+    price: "Ksh 3500",
     image: "/img/e5a16590-5f0b-4452-9788-7d3f9332c6b6.jpeg",
     category: ["sweater", "casual"],
     color: "purple",
@@ -941,7 +941,7 @@ const allProducts = [
   {
     id: 116,
     name: "Bardot Ruched Waist",
-    price: "Ksh 1000",
+    price: "Ksh 1300",
     image: "/img/Collegiate Style Minimalist Bardot Ruched Waist.jpeg",
     category: ["dresses", "casual", "formal"],
     color: "black",
@@ -949,7 +949,7 @@ const allProducts = [
   {
     id: 117,
     name: "Green floral print cardigan",
-    price: "Ksh 1000",
+    price: "Ksh 800",
     image: "/img/c025c077-81fd-4afc-8424-9a1dfe52d903.jpeg",
     category: ["sweater", "casual"],
     color: "green",
@@ -957,7 +957,7 @@ const allProducts = [
   {
     id: 118,
     name: "Purple Sweatshirt and accessories with a pair of denim jeans",
-    price: "Ksh 1000",
+    price: "Ksh 11000",
     image: "/img/be31e992-f50e-42d2-8cdc-39c6903ea49e.jpeg",
     category: ["outfits", "casual"],
     color: "purple",
@@ -965,7 +965,7 @@ const allProducts = [
   {
     id: 119,
     name: "Pink and White Dungaree with matching sweater top and accessories",
-    price: "Ksh 1000",
+    price: "Ksh 15000",
     image: "/img/f0a64875-a489-48f2-938a-dba4bf0e2058.jpeg",
     category: ["outfits", "casual"],
     color: "pink",
@@ -973,7 +973,7 @@ const allProducts = [
   {
     id: 120,
     name: "Grey tracksuit with matching accessories",
-    price: "Ksh 1000",
+    price: "Ksh 16000",
     image: "/img/outfit for ladies.jpeg",
     category: ["outfits", "casual"],
     color: "grey",
@@ -981,7 +981,7 @@ const allProducts = [
   {
     id: 121,
     name: "Butterfly Bell Sleeve Tops Off The Shoulder ",
-    price: "Ksh 1000",
+    price: "Ksh 900",
     image:
       "/img/Verdusa Women's Y2k 3D Butterfly Bell Sleeve Tops Off The Shoulder Crop Tops Long Sleeve T Shirts.jpeg",
     category: ["blouse", "casual"],
@@ -999,7 +999,7 @@ const allProducts = [
   {
     id: 123,
     name: " Star & Sheep Pattern Open Cardigan",
-    price: "Ksh 1000",
+    price: "Ksh 1200",
     image:
       "/img/Plus Size Women's Cute Embroidered Star & Sheep Pattern Open Cardigan.jpeg",
     category: ["sweater", "casual"],
@@ -1008,7 +1008,7 @@ const allProducts = [
   {
     id: 124,
     name: "Floral Patched Bishop Sleeve Cardigan",
-    price: "Ksh 1000",
+    price: "Ksh 1500",
     image: "/img/Teen Girls Floral Patched Bishop Sleeve Cardigan.jpeg",
     category: ["sweater", "casual"],
     color: "purple",
@@ -1016,7 +1016,7 @@ const allProducts = [
   {
     id: 125,
     name: "Blue Sleeveless",
-    price: "Ksh 1000",
+    price: "Ksh 1300",
     image: "/img/1a02b25f98654b51fcc656d239567ed6.jpg",
     category: ["blouse", "casual"],
     color: "blue",
@@ -1024,7 +1024,7 @@ const allProducts = [
   {
     id: 126,
     name: "Grey Cardigan with ribbons",
-    price: "Ksh 1000",
+    price: "Ksh 700",
     image: "/img/2a9ecdbc7708729c53d796db481bfcfb.jpg",
     category: ["sweater", "casual"],
     color: "grey",
@@ -1032,7 +1032,7 @@ const allProducts = [
   {
     id: 127,
     name: "Chiffon Skirt",
-    price: "Ksh 1000",
+    price: "Ksh 500",
     image: "/img/2bdc194560d8bf9761a97a57fc38a80d.jpg",
     category: ["skirt", "casual"],
     color: "orange",
@@ -1040,7 +1040,7 @@ const allProducts = [
   {
     id: 128,
     name: "Mint Green Jumpsuit",
-    price: "Ksh 1000",
+    price: "Ksh 1200",
     image: "/img/1b99848132cbeb0bc179fdf5da5f5bfc.jpg",
     category: ["jumpsuit", "formal"],
     color: "green",
@@ -1048,7 +1048,7 @@ const allProducts = [
   {
     id: 129,
     name: "Mustard top ",
-    price: "Ksh 1000",
+    price: "Ksh 1100",
     image: "/img/3ea2d3b250e2fc49aba7e63c7d9cfbe5.jpg",
     category: ["blouse", "casual"],
     color: "yellow",
@@ -1064,7 +1064,7 @@ const allProducts = [
   {
     id: 131,
     name: "Cool jumpsuit",
-    price: "Ksh 1000",
+    price: "Ksh 1800",
     image: "/img/2ec6ba9cc7e630640ead642046d4fb35.jpg",
     category: ["romper", "casual"],
     color: "green",
@@ -1072,7 +1072,7 @@ const allProducts = [
   {
     id: 132,
     name: "Purple Jumpsuit",
-    price: "Ksh 1000",
+    price: "Ksh 1400",
     image: "/img/01f8819c6113cdc9819417a3137771c6.jpg",
     category: ["jumpsuit", "casual", "formal"],
     color: "purple",
@@ -1080,7 +1080,7 @@ const allProducts = [
   {
     id: 133,
     name: "Knee rugged denim mom jeans",
-    price: "Ksh 1000",
+    price: "Ksh 1100",
     image: "/img/2eebcac621e131f28dec8091c92ffb94.jpg",
     category: ["pants", "casual"],
     color: "blue",
@@ -1088,7 +1088,7 @@ const allProducts = [
   {
     id: 134,
     name: "Yellow blouse",
-    price: "Ksh 1000",
+    price: "Ksh 800",
     image: "/img/2f2febfab270b66cd867a08a3a90c1cf.jpg",
     category: ["blouse", "casual"],
     color: "yellow",
@@ -1096,7 +1096,7 @@ const allProducts = [
   {
     id: 135,
     name: "Black poloneck,shoes and accessories with a checked skirt",
-    price: "Ksh 1000",
+    price: "Ksh 13000",
     image: "/img/3f66a2a1a533f900492830e70f753f56.jpg",
     category: ["outfits", "casual"],
     color: "black",
@@ -1104,7 +1104,7 @@ const allProducts = [
   {
     id: 136,
     name: "Knee rugged denim mom jeans with a touch of art",
-    price: "Ksh 1000",
+    price: "Ksh 1600",
     image: "/img/4cc293986d4331c4d889398b1212a3f5.jpg",
     category: ["pants", "casual"],
     color: "blue",
@@ -1112,7 +1112,7 @@ const allProducts = [
   {
     id: 137,
     name: "Grey off-shoulder sweater with ribbon straps",
-    price: "Ksh 1000",
+    price: "Ksh 1200",
     image: "/img/7b6b249d54d1697df3be4e50163d3202.jpg",
     category: ["sweater", "casual"],
     color: "grey",
@@ -1128,7 +1128,7 @@ const allProducts = [
   {
     id: 139,
     name: "Grey woolen dress",
-    price: "Ksh 1000",
+    price: "Ksh 1100",
     image: "/img/4ddbf8a0353ab868f7b6c41a08238dc7.jpg",
     category: ["dresses", "casual"],
     color: "grey",
@@ -1136,7 +1136,7 @@ const allProducts = [
   {
     id: 140,
     name: "One-shoulder jean jumpsuit",
-    price: "Ksh 1000",
+    price: "Ksh 2500",
     image: "/img/4e1fbbfd0d85e33f4d8d2f2446cbbff2.jpg",
     category: ["jumpsuit", "casual"],
     color: "blue",
@@ -1144,7 +1144,7 @@ const allProducts = [
   {
     id: 141,
     name: "A nice orange top",
-    price: "Ksh 1000",
+    price: "Ksh 900",
     image: "/img/6ab03a5b2db6151f463e4fa7aa57bf3a.jpg",
     category: ["blouse", "casual"],
     color: "orange",
@@ -1160,7 +1160,7 @@ const allProducts = [
   {
     id: 143,
     name: "White Sweater a pink bow print with pink pants and a sling bag",
-    price: "Ksh 1000",
+    price: "Ksh 12000",
     image: "/img/5b6f0b7d987c21a58c3fb91eaa6727dd.jpg",
     category: ["outfits", "casual"],
     color: "pink",
@@ -1168,7 +1168,7 @@ const allProducts = [
   {
     id: 144,
     name: "Grey Skater Dress",
-    price: "Ksh 1000",
+    price: "Ksh 750",
     image: "/img/5d77591aa7e167fe3861a4eee34c9627.jpg",
     category: ["dresses", "casual"],
     color: "grey",
@@ -1176,7 +1176,7 @@ const allProducts = [
   {
     id: 145,
     name: "Pink formal dress with matching accessories",
-    price: "Ksh 1000",
+    price: "Ksh 17000",
     image: "/img/7b26442331773d75d84d5606c5217565.jpg",
     category: ["outfits", "casual", "formal"],
     color: "pink",
@@ -1184,7 +1184,7 @@ const allProducts = [
   {
     id: 146,
     name: "Jeans cargo pants",
-    price: "Ksh 1000",
+    price: "Ksh 2500",
     image: "/img/7d361c0ade13a57672c6036e4f07c519.jpg",
     category: ["pants", "casual"],
     color: "blue",
@@ -1200,7 +1200,7 @@ const allProducts = [
   {
     id: 148,
     name: "Brown coduroy dress",
-    price: "Ksh 1000",
+    price: "Ksh 2000",
     image: "/img/7da62741ab3157dd0160307b8b5ceab3.jpg",
     category: ["dresses", "casual"],
     color: "brown",
@@ -1208,7 +1208,7 @@ const allProducts = [
   {
     id: 149,
     name: "Off-shoulder blue top",
-    price: "Ksh 1000",
+    price: "Ksh 1300",
     image: "/img/4f082acf10e865ae45d2cacc79da93b0.jpg",
     category: ["blouse", "casual"],
     color: "blue",
@@ -1216,7 +1216,7 @@ const allProducts = [
   {
     id: 150,
     name: "Black denim jeans with bow prints",
-    price: "Ksh 1000",
+    price: "Ksh 22000",
     image: "/img/8cff01086321272103db337616aba00a.jpg",
     category: ["pants", "casual"],
     color: "black",
@@ -1224,7 +1224,7 @@ const allProducts = [
   {
     id: 151,
     name: "Red blouse with puffy sleeves",
-    price: "Ksh 1000",
+    price: "Ksh 3000",
     image: "/img/9d005ac1215df7373b14e4fd7a0eeed0.jpg",
     category: ["blouse", "casual"],
     color: "red",
@@ -1232,7 +1232,7 @@ const allProducts = [
   {
     id: 152,
     name: "Off-shoulder top",
-    price: "Ksh 1000",
+    price: "Ksh 1800",
     image: "/img/40a08ec396d43cc31adc166caf7fdb16.jpg",
     category: ["blouse", "casual"],
     color: "yellow",
@@ -1240,7 +1240,7 @@ const allProducts = [
   {
     id: 153,
     name: "Checked girly shirt dress",
-    price: "Ksh 1000",
+    price: "Ksh 2500",
     image: "/img/38eaf61911e1cedff181f187e1f7c54d.jpg",
     category: ["blouse", "casual"],
     color: "checked",
@@ -1248,7 +1248,7 @@ const allProducts = [
   {
     id: 154,
     name: "White floral printed dress",
-    price: "Ksh 1000",
+    price: "Ksh 3500",
     image: "/img/18dec3750fd15fa005a836980677deae.jpg",
     category: ["dresses", "casual"],
     color: "blue",
@@ -1256,7 +1256,7 @@ const allProducts = [
   {
     id: 155,
     name: "A nice girly outfit",
-    price: "Ksh 1000",
+    price: "Ksh 17000",
     image: "/img/22c449a20f591591055572753e24c022.jpg",
     category: ["outfits", "casual"],
     color: "blue",
@@ -1264,7 +1264,7 @@ const allProducts = [
   {
     id: 156,
     name: "Off-shoulder top with straps",
-    price: "Ksh 1000",
+    price: "Ksh 2300",
     image: "/img/029fe8d9de85fa33a8649930a6556963.jpg",
     category: ["blouse", "casual"],
     color: "orange",
@@ -1272,7 +1272,7 @@ const allProducts = [
   {
     id: 157,
     name: "Knee rugged denim jeans with an art print",
-    price: "Ksh 1000",
+    price: "Ksh 1800",
     image: "/img/53bdb47a5184521a6e5ddc6946de96dc.jpg",
     category: ["pants", "casual"],
     color: "blue",
@@ -1280,7 +1280,7 @@ const allProducts = [
   {
     id: 158,
     name: "Orange skirt",
-    price: "Ksh 1000",
+    price: "Ksh 1400",
     image: "/img/44d93dd25e6a9e8a4305b97afb141db3.jpg",
     category: ["skirt", "casual"],
     color: "orange",
@@ -1288,7 +1288,7 @@ const allProducts = [
   {
     id: 159,
     name: "Checked blouse with ribbons",
-    price: "Ksh 1000",
+    price: "Ksh 1100",
     image: "/img/47ce34b378be4b042166f30d8af18fac.jpg",
     category: ["blouse", "casual"],
     color: "checked",
@@ -1296,7 +1296,7 @@ const allProducts = [
   {
     id: 160,
     name: "Pink Saitn blouse with puffy sleeves",
-    price: "Ksh 1000",
+    price: "Ksh 2000",
     image: "/img/64e1d7a4b98d672f06ce0652960dd8d0.jpg",
     category: ["blouse", "casual", "formal"],
     color: "pink",
@@ -1304,7 +1304,7 @@ const allProducts = [
   {
     id: 161,
     name: "Blue denim pants with a print",
-    price: "Ksh 1000",
+    price: "Ksh 1700",
     image: "/img/62b0d08fc2f015beb7aecb9a94380a34.jpg",
     category: ["pants", "casual"],
     color: "blue",
@@ -1312,7 +1312,7 @@ const allProducts = [
   {
     id: 162,
     name: "Yellow chiffon blouse",
-    price: "Ksh 1000",
+    price: "Ksh 2300",
     image: "/img/646f46f9831b9a0b681332146d195ada.jpg",
     category: ["blouse", "casual"],
     color: "yellow",
@@ -1320,7 +1320,7 @@ const allProducts = [
   {
     id: 163,
     name: "Green off-shoulder dress",
-    price: "Ksh 1000",
+    price: "Ksh 3300",
     image: "/img/831de22026731b1bbd437414efc63ec1.jpg",
     category: ["dresses", "casual"],
     color: "green",
@@ -1328,7 +1328,7 @@ const allProducts = [
   {
     id: 164,
     name: "Pink Jumpsuit with puffy short sleeves",
-    price: "Ksh 1000",
+    price: "Ksh 6800",
     image: "/img/81f484a6200d6993296be63330d7f7ff.jpg",
     category: ["jumpsuit", "formal", "elegant"],
     color: "pink",
@@ -1336,7 +1336,7 @@ const allProducts = [
   {
     id: 165,
     name: "Blue denim baggy jeans",
-    price: "Ksh 1000",
+    price: "Ksh 3400",
     image: "/img/207e0579754845189db4457ea358c326.jpg",
     category: ["pants", "casual"],
     color: "blue",
@@ -1344,7 +1344,7 @@ const allProducts = [
   {
     id: 166,
     name: "Yellow cardigan",
-    price: "Ksh 1000",
+    price: "Ksh 950",
     image: "/img/837e073b1bf3f09930317410ea798fde.jpg",
     category: ["sweater", "casual"],
     color: "yellow",
@@ -1352,7 +1352,7 @@ const allProducts = [
   {
     id: 167,
     name: "Grey cotton dress with checked patches",
-    price: "Ksh 1000",
+    price: "Ksh 4700",
     image: "/img/0283c00894097a22fd17dc326b2e4930.jpg",
     category: ["dresses", "casual"],
     color: "blue",
@@ -1360,7 +1360,7 @@ const allProducts = [
   {
     id: 168,
     name: "Pink Coduroy Dress",
-    price: "Ksh 1000",
+    price: "Ksh 2800",
     image: "/img/77f399441458d06f5186b8f981482f5c.jpg",
     category: ["dresses", "casual"],
     color: "pink",
@@ -1368,7 +1368,7 @@ const allProducts = [
   {
     id: 169,
     name: "Unique dress",
-    price: "Ksh 1000",
+    price: "Ksh 2000",
     image: "/img/787608b9ce1c5a3fea33e7ba46fa8772.jpg",
     category: ["dresses", "casual"],
     color: "brown",
@@ -1376,7 +1376,7 @@ const allProducts = [
   {
     id: 170,
     name: "Aubergine Pink off-shoulder top with matching denim jeans",
-    price: "Ksh 1000",
+    price: "Ksh 15000",
     image: "/img/8546a2da0af08283e08b5e66eb025daf.jpg",
     category: ["outfits", "casual"],
     color: "pink",
@@ -1384,7 +1384,7 @@ const allProducts = [
   {
     id: 171,
     name: "Striped cotton crop top",
-    price: "Ksh 1000",
+    price: "KsH 700",
     image: "/img/51828343aecd459e7c15e9f3b8dae616.jpg",
     category: ["blouse", "casual"],
     color: "stripes",
@@ -1392,7 +1392,7 @@ const allProducts = [
   {
     id: 172,
     name: "Pink blouse",
-    price: "Ksh 1000",
+    price: "Ksh 1300",
     image: "/img/66aea27ff32039a1a46bf0757b693cc3.jpg",
     category: ["blouse", "casual"],
     color: "pink",
@@ -1400,7 +1400,7 @@ const allProducts = [
   {
     id: 173,
     name: "Beige dress with long puffy sleeves ",
-    price: "Ksh 1000",
+    price: "Ksh 2700",
     image: "/img/IMG_20250701_155612.jpg",
     category: ["dresses", "casual", "formal"],
     color: "beige",
@@ -1408,7 +1408,7 @@ const allProducts = [
   {
     id: 174,
     name: "Short green dress",
-    price: "Ksh 1000",
+    price: "Ksh 3200",
     image: "/img/400e1a153678e9135b8ce600b41e9b68.jpg",
     category: ["dresses", "casual"],
     color: "green",
@@ -1416,7 +1416,7 @@ const allProducts = [
   {
     id: 175,
     name: "Brown checked blouse",
-    price: "Ksh 1000",
+    price: "Ksh 1500",
     image: "/img/417f273206a1251abf87d87bd5d1b14e.jpg",
     category: ["blouse", "casual"],
     color: "checked",
@@ -1424,7 +1424,7 @@ const allProducts = [
   {
     id: 176,
     name: "Rugged blue jeans with a butterfly print",
-    price: "Ksh 1000",
+    price: "Ksh 2200",
     image: "/img/6455e67861c01335a319afbea5f4206e.jpg",
     category: ["pants", "casual"],
     color: "blue",
@@ -1432,7 +1432,7 @@ const allProducts = [
   {
     id: 177,
     name: "Red woolen dress",
-    price: "Ksh 1000",
+    price: "Ksh 3100",
     image: "/img/2390e117d2a0bf4624c942b77007002c.jpg",
     category: ["dresses", "casual"],
     color: "red",
@@ -1440,7 +1440,7 @@ const allProducts = [
   {
     id: 178,
     name: "Biege blouse",
-    price: "Ksh 1000",
+    price: "Ksh 2600",
     image: "/img/572f7eb1a4f2dc2b94909c82dbf581f4.jpg",
     category: ["blouse", "casual", "formal", "elegant"],
     color: "beige",
@@ -1448,7 +1448,7 @@ const allProducts = [
   {
     id: 179,
     name: "Pink floral print top",
-    price: "Ksh 1000",
+    price: "Ksh 4500",
     image: "/img/6507c80481d9dee02e15588bb2c4042b.jpg",
     category: ["blouse", "casual"],
     color: "pink",
@@ -1456,7 +1456,7 @@ const allProducts = [
   {
     id: 180,
     name: "Checked purple sweater with a cream pair of pants and a poloneck",
-    price: "Ksh 1000",
+    price: "Ksh 14000",
     image: "/img/97555af17952c2549f03e3102c99e2a8.jpg",
     category: ["outfits", "casual"],
     color: "purple",
@@ -1464,7 +1464,7 @@ const allProducts = [
   {
     id: 181,
     name: "Orange top",
-    price: "Ksh 1000",
+    price: "Ksh 1300",
     image: "/img/65928e9980408b629d287df6bc258bf2.jpg",
     category: ["blouse", "casual"],
     color: "orange",
@@ -1473,15 +1473,15 @@ const allProducts = [
   {
     id: 182,
     name: "Denim pants",
-    price: "Ksh 1000",
+    price: "Ksh 3000",
     image: "/img/9863175f61ca18c5d3774f187765c464.jpg",
     category: ["pants", "casual"],
     color: "blue",
   },
   {
     id: 183,
-    name: "Grey cardigan with black straps",
-    price: "Ksh 1000",
+    name: "Grey cardigan with black",
+    price: "Ksh 2200",
     image: "/img/52461730ec6f29daeafca706c6bda5dc.jpg",
     category: ["sweater", "casual"],
     color: "grey",
@@ -1489,7 +1489,7 @@ const allProducts = [
   {
     id: 184,
     name: "Short jeans skirt",
-    price: "Ksh 1000",
+    price: "Ksh 1400",
     image: "/img/b3f6cedb6395969c4cc2fc87b19fffc5.jpg",
     category: ["skirt", "casual"],
     color: "blue",
@@ -1497,7 +1497,7 @@ const allProducts = [
   {
     id: 185,
     name: "One-shoulder",
-    price: "Ksh 1000",
+    price: "Ksh 3700",
     image: "/img/c0a1d5b6dba882ce05a354b99460ef11.jpg",
     category: ["blouse", "casual"],
     color: "yellow",
@@ -1505,15 +1505,15 @@ const allProducts = [
   {
     id: 186,
     name: "Winter Coat",
-    price: "Ksh1500",
+    price: "Ksh 4500",
     image: "/img/c6d6434b250a7f38370b79146afdc3df.jpg",
-    category: ["blouse", "casual"],
+    category: ["sweater", "casual"],
     color: "brown",
   },
   {
     id: 187,
     name: "Butterfly Printed jeans",
-    price: "Ksh1200",
+    price: "Ksh 2300",
     image: "/img/cdb4d0fd62354cbd0ea9ae647386ed90.jpg",
     category: ["pants", "casual"],
     color: "blue",
@@ -1521,7 +1521,7 @@ const allProducts = [
   {
     id: 188,
     name: "Checked dress with puffy short sleeves",
-    price: "Ksh1600",
+    price: "Ksh 3700",
     image: "/img/d0b87e64d927887c2f0cf5e98167ba9e.jpg",
     category: ["dresses", "casual"],
     color: "checked",
@@ -1529,7 +1529,7 @@ const allProducts = [
   {
     id: 189,
     name: "Green A-shaped dress",
-    price: "Ksh1100",
+    price: "Ksh 2000",
     image: "/img/5841f9c299ab3e0ab8290dc6381ae0c2.jpg",
     category: ["dresses", "casual"],
     color: "green",
@@ -1537,7 +1537,7 @@ const allProducts = [
   {
     id: 190,
     name: "Short jeans skirt with side pockets",
-    price: "Ksh1200",
+    price: "Ksh 1500",
     image: "/img/b82cc3ed3b98a86b1cdd59e831d88cc8.jpg",
     category: ["skirt", "casual"],
     color: "blue",
@@ -1545,7 +1545,7 @@ const allProducts = [
   {
     id: 191,
     name: "Pink off-shoulder top with straps",
-    price: "Ksh800",
+    price: "Ksh 1200",
     image: "/img/d99b018e7cf06ed10f2cddf75a13be3d.jpg",
     category: ["blouse", "casual"],
     color: "pink",
@@ -1553,7 +1553,7 @@ const allProducts = [
   {
     id: 192,
     name: "Green coduroy dress",
-    price: "Ksh1500",
+    price: "Ksh 5200",
     image: "/img/ff074a1d45187d512ca04ee1f89a824a.jpg",
     category: ["dresses", "casual"],
     color: "green",
@@ -1561,7 +1561,7 @@ const allProducts = [
   {
     id: 193,
     name: "White cardigan with bow prints on sleeves",
-    price: "Ksh700",
+    price: "Ksh 2700",
     image: "/img/c6a63514b59da1d896acaed9760af12d.jpg",
     category: ["sweater", "casual"],
     color: "white",
@@ -1569,7 +1569,7 @@ const allProducts = [
   {
     id: 194,
     name: "Formal Maroon dress",
-    price: "Ksh1300",
+    price: "Ksh 4200",
     image: "/img/ef277054c7b017dbce125368132f4e91.jpg",
     category: ["dresses", "casual", "formal"],
     color: "red",
@@ -1577,7 +1577,7 @@ const allProducts = [
   {
     id: 195,
     name: "One-shoulder crop sweater",
-    price: "Ksh1000",
+    price: "Ksh 1000",
     image: "/img/f65a1591b3aba48e1c36939dbf19f82a.jpg",
     category: ["sweater", "casual"],
     color: "black",
@@ -1585,7 +1585,7 @@ const allProducts = [
   {
     id: 196,
     name: "Pink cardigan with white bow ribbons",
-    price: "Ksh1200",
+    price: "Ksh 3200",
     image: "/img/85707f7fbbd01551aaeff711e273d65d.jpg",
     category: ["sweater", "casual"],
     color: "pink",
@@ -1593,7 +1593,7 @@ const allProducts = [
   {
     id: 197,
     name: "White top with yellow floral print",
-    price: "Ksh600",
+    price: "Ksh 1600",
     image: "/img/af4001ab6c557ab67c2e2ea66b95eb47.jpg",
     category: ["blouse", "casual"],
     color: "yellow",
@@ -1601,7 +1601,7 @@ const allProducts = [
   {
     id: 198,
     name: "Beige pants with bow ribbons",
-    price: "Ksh 1300",
+    price: "Ksh 2300",
     image: "/img/b090e88efaf696b1b05ca597327dc331.jpg",
     category: ["pants", "casual", "formal"],
     color: "beige",
@@ -1609,7 +1609,7 @@ const allProducts = [
   {
     id: 199,
     name: "Aubergine sweater",
-    price: "Ksh1400",
+    price: "Ksh 1400",
     image: "/img/be6adebd185683e3b384ac067ba698af.jpg",
     category: ["sweater", "casual"],
     color: "pink",
@@ -1617,7 +1617,7 @@ const allProducts = [
   {
     id: 200,
     name: "Brown poloneck with a checked skirt and brown trench coat",
-    price: "Ksh3500",
+    price: "Ksh 15000",
     image: "/img/b8bb19684864f73b58460d7d797edca2.jpg",
     category: ["outfits", "casual", "formal", "elegant"],
     color: "brown",
@@ -1625,7 +1625,7 @@ const allProducts = [
   {
     id: 201,
     name: "Blue checked dress with a floral print",
-    price: "Ksh 2000",
+    price: "Ksh 3400",
     image: "/img/4039675237fcf1bb5d110e71138a3ec8.jpg",
     category: ["dresses", "casual"],
     color: "blue",
@@ -1634,7 +1634,7 @@ const allProducts = [
   {
     id: 202,
     name: "Short sleeveless dress",
-    price: "Ksh 2000",
+    price: "Ksh 2700",
     image: "/img/a7ed4325ec36adac6a9e724b41972e96.jpg",
     category: ["dresses", "casual"],
     color: "red",
@@ -1642,7 +1642,7 @@ const allProducts = [
   {
     id: 203,
     name: "Dark brown dress",
-    price: "Ksh 2000",
+    price: "Ksh 4600",
     image: "/img/a8333098014ea0c16c46b9118dd8f900.jpg",
     category: ["dresses", "casual"],
     color: "brown",
@@ -1650,7 +1650,7 @@ const allProducts = [
   {
     id: 204,
     name: "Red blouse with sleeves that have puffy shoulders",
-    price: "Ksh 2000",
+    price: "Ksh 3500",
     image: "/img/a5b73ae98de130550b5982e491a04de6.jpg",
     category: ["blouse", "casual"],
     color: "red",
@@ -1658,7 +1658,7 @@ const allProducts = [
   {
     id: 205,
     name: "Blue dress with white floral print",
-    price: "Ksh 2000",
+    price: "Ksh 2600",
     image: "/img/d26db343fc2c723cb0a3b6d1e50812d2.jpg",
     category: ["dresses", "casual"],
     color: "blue",
@@ -1666,7 +1666,7 @@ const allProducts = [
   {
     id: 206,
     name: "Light yellow top",
-    price: "Ksh 2000",
+    price: "Ksh 1200",
     image: "/img/d0960c4c5660c7e0f0d38d9655b1eb43.jpg",
     category: ["blouse", "casual", "formal"],
     color: "yellow",
@@ -1674,7 +1674,7 @@ const allProducts = [
   {
     id: 207,
     name: "Black pants with butterfly print",
-    price: "Ksh 2000",
+    price: "Ksh 2300",
     image: "/img/edc0685a9f81337792c705a983e4a44d.jpg",
     category: ["pants", "casual"],
     color: "black",
@@ -1682,7 +1682,7 @@ const allProducts = [
   {
     id: 208,
     name: "Pink sweater with matching cream colored pants accessories",
-    price: "Ksh 2000",
+    price: "Ksh 19000",
     image: "/img/a44965bf51f45462e04ccff4ad899bac.jpg",
     category: ["outfits", "casual"],
     color: "ipink",
@@ -1690,7 +1690,7 @@ const allProducts = [
   {
     id: 209,
     name: "Black top with a pair of denim jeans",
-    price: "Ksh 2000",
+    price: "Ksh 11000",
     image: "/img/d10047e3aae1ea142c830d175c3567f3.jpg",
     category: ["outfits", "casual"],
     color: "black",
@@ -1698,7 +1698,7 @@ const allProducts = [
   {
     id: 210,
     name: "Green dress",
-    price: "Ksh 2000",
+    price: "Ksh 2700",
     image: "/img/dd0b9f49ca8a80a861241e68e9f0aef4.jpg",
     category: ["dresses", "casual"],
     color: "green",
@@ -1706,7 +1706,7 @@ const allProducts = [
   {
     id: 211,
     name: "Bue satin blouse",
-    price: "Ksh 2000",
+    price: "Ksh 3100",
     image: "/img/c806fecd51a2c564e3365096941695eb.jpg",
     category: ["blouse", "formal"],
     color: "blue",
@@ -1714,7 +1714,7 @@ const allProducts = [
   {
     id: 212,
     name: "Strawberry lover",
-    price: "Ksh 2000",
+    price: "Ksh 12000",
     image: "/img/c09d9a62ab071d3a365155d7442f6970.jpg",
     category: ["outfits", "casual"],
     color: "red",
@@ -1722,7 +1722,7 @@ const allProducts = [
   {
     id: 213,
     name: "Off-shoulder blue striped blouse",
-    price: "Ksh 2000",
+    price: "Ksh 2500",
     image: "/img/d802d4b4f71eb91626e7f5616de91e2e.jpg",
     category: ["blouse", "casual", "formal"],
     color: "stripes",
@@ -1730,7 +1730,7 @@ const allProducts = [
   {
     id: 214,
     name: "Dark Orange blouse",
-    price: "Ksh 2000",
+    price: "Ksh 1200",
     image: "/img/ef8563f85b15920900383759055b525f.jpg",
     category: ["blouse", "casual"],
     color: "orange",
@@ -1738,7 +1738,7 @@ const allProducts = [
   {
     id: 215,
     name: "Blue off-shoulder jumpsuit",
-    price: "Ksh 2000",
+    price: "Ksh 4300",
     image: "/img/f1200f530c0575f4f5cad556819c3492.jpg",
     category: ["jumpsuit", "casual"],
     color: "blue",
@@ -1746,23 +1746,15 @@ const allProducts = [
   {
     id: 216,
     name: "Off-shoulder cotton sweater",
-    price: "Ksh 2000",
+    price: "Ksh 2200",
     image: "/img/fb0554b8f88f469092dff014cda953db.jpg",
     category: ["sweater", "casual"],
     color: "pink",
   },
   {
     id: 217,
-    name: "Mustard jumpsuit",
-    price: "Ksh 2000",
-    image: "/img/fec7efe3af2450d88ebbe0b8777174f8.jpg",
-    category: ["jumpsuit", "casual", "formal"],
-    color: "yellow",
-  },
-  {
-    id: 217,
     name: "Skater dress and a college jacket",
-    price: "Ksh 2000",
+    price: "Ksh 15000",
     image: "/img/f76515ebf32f49a82b21cba1f9bfa1df.jpg",
     category: ["outfits", "casual"],
     color: "purple",
@@ -1770,7 +1762,7 @@ const allProducts = [
   {
     id: 218,
     name: "Light yellow colored top with puffy sleeves",
-    price: "Ksh 2000",
+    price: "Ksh 4300",
     image: "/img/f98a221fbc73a5d62d4a3e019d73aa00.jpg",
     category: ["blouse", "casual"],
     color: "yellow",
@@ -1778,7 +1770,7 @@ const allProducts = [
   {
     id: 219,
     name: "Cross buttoned striped blouse",
-    price: "Ksh 2000",
+    price: "Ksh 2400",
     image: "/img/fc6bc823746c8e3b0025d6b975b45939.jpg",
     category: ["blouse", "casual"],
     color: "stripes",
@@ -1786,7 +1778,7 @@ const allProducts = [
   {
     id: 220,
     name: "An orange chiffon blouse",
-    price: "Ksh 2000",
+    price: "Ksh 1500",
     image: "/img/fd39c68aaaba03f016077ea81bf892d4.jpg",
     category: ["blouse", "casual"],
     color: "orange",
@@ -1794,7 +1786,7 @@ const allProducts = [
   {
     id: 221,
     name: "A brown blouse with long chiffon puffy sleeves",
-    price: "Ksh 2000",
+    price: "Ksh 1200",
     image: "/img/f2609fba9e667c896186061cefdb3af1.jpg",
     category: ["blouse", "casual"],
     color: "brown",
@@ -1802,7 +1794,7 @@ const allProducts = [
   {
     id: 222,
     name: "A striped navy blue and white sweater",
-    price: "Ksh 2000",
+    price: "Ksh 3200",
     image: "/img/fe5c7d566c153883e170818f54839e23.jpg",
     category: ["sweater", "casual"],
     color: "stripes",
@@ -1818,7 +1810,7 @@ const allProducts = [
   {
     id: 224,
     name: "A pink elegant jumpsuit",
-    price: "Ksh 2000",
+    price: "ksh 5500",
     image: "/img/f8055dea1a7f4406f3f49653b439f04c.jpg",
     category: ["jumpsuit", "formal", "elegant"],
     color: "pink",
@@ -1826,7 +1818,7 @@ const allProducts = [
   {
     id: 225,
     name: "Green sweat shirt with white pants and matching accessories",
-    price: "Ksh 2000",
+    price: "Ksh 7800",
     image: "/img/fc3f582f0e675df241b4bdd21bb85e91.jpg",
     category: ["outfits", "casual"],
     color: "green",
@@ -1834,7 +1826,7 @@ const allProducts = [
   {
     id: 226,
     name: "Purple checked dress",
-    price: "Ksh 2000",
+    price: "Ksh 4000",
     image: "/img/fdb997c632d59873624a06db550d4e2e.jpg",
     category: ["dresses", "casual"],
     color: "purple",
@@ -1842,7 +1834,7 @@ const allProducts = [
   {
     id: 227,
     name: "Blue floral summer dress",
-    price: "Ksh 2000",
+    price: "Ksh 2300",
     image: "/img/d82935289d148dbdb33fba318a6ff715.jpg",
     category: ["dresses", "casual"],
     color: "blue",
@@ -1850,7 +1842,7 @@ const allProducts = [
   {
     id: 228,
     name: "Purple checked dress",
-    price: "Ksh 2000",
+    price: "Ksh 3700",
     image: "/img/f6ffcc5fcac4af3cdd9cb23127486d25.jpg",
     category: ["jumpsuit", "casual"],
     color: "pink",
@@ -1858,10 +1850,26 @@ const allProducts = [
   {
     id: 229,
     name: "Blue floral summer dress",
-    price: "Ksh 2000",
+    price: "Ksh 2500",
     image: "/img/d75ddc28a9f9c9d55105b63cf5d1a747.jpg",
     category: ["dresses", "casual"],
     color: "blue",
+  },
+  {
+    id: 230,
+    name: "Elegant wear",
+    price: "Ksh 22000",
+    image: "/img/410ba4ff12526b932848ab74f8ead89d.jpg",
+    category: ["outfits", "elegant"],
+    color: "purple",
+  },
+  {
+    id: 231,
+    name: "Pink blouse with long puffy sleeves",
+    price: "Ksh 3100",
+    image: "/img/6330827c26256f2eb0a3e1a08b144990.jpg",
+    category: ["blouse", "casual", "formal"],
+    color: "pink",
   },
 ];
 export default allProducts;
