@@ -128,9 +128,13 @@ const Navbar = () => {
                     <p className="hover:bg-gray-100 p-2 cursor-pointer">
                       Buy Again
                     </p>
-                    <p className="hover:bg-gray-100 p-2 cursor-pointer">
-                      Receipts
-                    </p>
+                    <Link
+                      to="/my-receipts"
+                      className="block hover:bg-gray-100 p-2 cursor-pointer"
+                    >
+                      My Receipts
+                    </Link>
+
                     <p
                       className="hover:bg-gray-100 p-2 cursor-pointer"
                       onClick={() => {
