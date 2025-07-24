@@ -249,7 +249,8 @@ const Navbar = () => {
       {showSearch && (
         <div
           ref={searchRef}
-          className="absolute top-20 left-0 w-full flex flex-col items-center z-40"
+          // className="fixed inset-0 bg-opacity-30 flex justify-center items-center pt-32 z-50"
+          className="fixed top-20 left-0 w-full flex flex-col items-center z-40"
         >
           <form onSubmit={handleSearchSubmit} className="w-[90%] md:w-1/2">
             <input

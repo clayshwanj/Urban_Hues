@@ -74,7 +74,7 @@ const CartSidebar = () => {
         )}
       </div>
 
-      {/* ✅ Checkout Section */}
+      {/*Checkout Section */}
       {cartItems.length > 0 && (
         <div className="p-4 border-t bg-gray-50 mt-auto">
           <div className="flex justify-between mb-4 font-semibold">
