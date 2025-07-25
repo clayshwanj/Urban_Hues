@@ -76,3 +76,16 @@ export const CartProvider = ({ children }) => {
     </CartContext.Provider>
   );
 };
+// const addToCart = (product, quantity = 1) => {
+//   const existingItem = cart.find((item) => item._id === product._id);
+//   if (existingItem) {
+//     setCart((prevCart) =>
+//       prevCart.map((item) =>
+//         item._id === product._id ? { ...item, quantity: item.quantity + quantity } : item
+//       )
+//     );
+//   } else {
+//     setCart((prevCart) => [...prevCart, { ...product, quantity }]);
+//   }
+//   localStorage.setItem("cart", JSON.stringify(cart));
+// };
