@@ -30,7 +30,7 @@ const ScrollToggleButton = () => {
   return (
     <motion.button
       onClick={handleScroll}
-      className="fixed bottom-5 right-5 bg-gradient-to-r from-sky-700 to-amber-500 hover:from-amber-500 hover:to-sky-700 text-white p-3 rounded-full shadow-lg transition-transform transform hover:scale-110"
+      className="fixed bottom-5 right-5 bg-gradient-to-r from-purple-600 to-pink-300 hover:from-pink-300 hover:to-purple-500 text-white p-3 rounded-full shadow-lg transition-transform transform hover:scale-110"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: 20 }}
