@@ -3,6 +3,7 @@ import ProductCard from "../components/ProductCard";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import allProducts from "../data/products";
+// import ScrollToggleButton from "../components/scrollButton";
 
 const HomePage = () => {
   const [filters, setFilters] = useState({ category: "all", type: "all" });
@@ -37,13 +38,14 @@ const HomePage = () => {
         }}
       >
         <div className="absolute inset-0"></div>
-        <h1 className="relative text-4xl md:text-6xl font-bold text-center text-black">
-          Urban Hues
-        </h1>
+        <p className="relative text-3xl md:text-3xl font-semibold text-center text-black">
+          Where women shop for best clothes
+        </p>
       </div>
 
       {/* Featured Collection */}
       <div className="py-12 px-6 md:px-16 bg-white">
+        {/* <ScrollToggleButton /> */}
         <h2 className="text-3xl md:text-4xl font-semibold text-center mb-10 text-gray-700">
           Featured Collection
         </h2>
@@ -99,7 +101,6 @@ const HomePage = () => {
           ))}
         </div>
       </div>
-
       <Footer />
     </section>
   );

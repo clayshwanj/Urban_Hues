@@ -8,7 +8,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-pink-200 text-black py-12 px-4 mt-16">
+    <footer className="bg-pink-600 text-black py-12 px-4 mt-16">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
         {/* Newsletter Section */}
         <div>
@@ -24,7 +24,7 @@ const Footer = () => {
               placeholder="Enter your email"
               className="bg-white text-black p-2 w-full focus:outline-none"
             />
-            <button className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 whitespace-nowrap">
+            <button className="bg-indigo-700 hover:bg-indigo-600 text-white px-4 py-2 whitespace-nowrap">
               Subscribe
             </button>
           </div>
@@ -34,19 +34,15 @@ const Footer = () => {
         <div>
           <h4 className="text-lg font-bold mb-4">CATEGORIES</h4>
           <ul className="space-y-2 text-sm">
-            {[
-              "New Arrivals",
-              "Dresses",
-              "Tops",
-              "Accessories",
-              "Men's Wear",
-            ].map((item) => (
-              <li key={item}>
-                <a href="#" className="hover:text-sky-700">
-                  {item}
-                </a>
-              </li>
-            ))}
+            {["New Arrivals", "Casual Wear", "Formal Wear", "Elegant Wear"].map(
+              (item) => (
+                <li key={item}>
+                  <a href="#" className="hover:text-sky-700">
+                    {item}
+                  </a>
+                </li>
+              )
+            )}
           </ul>
         </div>
 

@@ -1,4 +1,4 @@
-import { useCart } from "../context/CartContext"; // Update based on your project structure
+import { useCart } from "../context/CartContext";
 
 const MyOrders = ({ userId }) => {
   const [orders, setOrders] = useState([]);
@@ -57,7 +57,7 @@ const MyOrders = ({ userId }) => {
                   </div>
                   <button
                     onClick={() => handleBuyAgain(productId, 1)}
-                    className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+                    className="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-500"
                   >
                     Buy Again
                   </button>

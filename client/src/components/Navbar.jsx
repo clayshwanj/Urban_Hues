@@ -56,7 +56,7 @@ const Navbar = () => {
   return (
     <>
       {/* Navbar */}
-      <nav className="fixed top-0 left-0 z-50 bg-white w-full p-4 shadow-md">
+      <nav className="fixed top-0 left-0 z-50 bg-pink-400 w-full p-4 shadow-md">
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center space-x-2">
@@ -65,12 +65,12 @@ const Navbar = () => {
               alt="Urban Hues Logo"
               className="w-8 h-6"
             />
-            <h1 className="text-xl font-bold text-sky-700">Urban Hues</h1>
+            <h1 className="text-xl font-bold text-black">Urban Hues</h1>
           </div>
 
           {/* Hamburger Icon (Mobile) */}
           <button
-            className="md:hidden text-sky-700 focus:outline-none"
+            className="md:hidden text-black focus:outline-none"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
@@ -78,13 +78,13 @@ const Navbar = () => {
 
           {/* Desktop Nav */}
           <div className="hidden md:flex space-x-6 items-center">
-            <Link className="text-sky-700 hover:underline" to="/">
+            <Link className="text-black hover:text-white" to="/">
               Home
             </Link>
-            <Link className="text-sky-700 hover:underline" to="/shop">
+            <Link className="text-black hover:text-white" to="/shop">
               Shop
             </Link>
-            <Link className="text-sky-700 hover:underline" to="/contact">
+            <Link className="text-black hover:text-white" to="/contact">
               Contact
             </Link>
             <div className="flex space-x-4 text-lg items-center">
@@ -119,15 +119,19 @@ const Navbar = () => {
                 </span>
                 {showProfileDropdown && (
                   <div className="absolute right-0 mt-2 bg-white border shadow-lg rounded-md w-40 z-50 text-sm p-2 space-y-1">
-                    <p className="hover:bg-gray-100 p-2 cursor-pointer">
+                    <Link
+                      to="/profile"
+                      className=" block hover:bg-gray-100 p-2 cursor-pointer"
+                    >
                       Profile
-                    </p>
-                    <p className="hover:bg-gray-100 p-2 cursor-pointer">
+                    </Link>
+                    <Link
+                      to="/my-orders"
+                      className="block  hover:bg-gray-100 p-2 cursor-pointer"
+                    >
                       Orders
-                    </p>
-                    <p className="hover:bg-gray-100 p-2 cursor-pointer">
-                      Buy Again
-                    </p>
+                    </Link>
+
                     <Link
                       to="/my-receipts"
                       className="block hover:bg-gray-100 p-2 cursor-pointer"
@@ -159,21 +163,21 @@ const Navbar = () => {
         {isOpen && (
           <div className="md:hidden flex flex-col space-y-4 mt-4">
             <Link
-              className="text-sky-700 hover:underline"
+              className="text-black hover:text-white"
               to="/"
               onClick={() => setIsOpen(false)}
             >
               Home
             </Link>
             <Link
-              className="text-sky-700 hover:underline"
+              className="text-black hover:text-white"
               to="/shop"
               onClick={() => setIsOpen(false)}
             >
               Shop
             </Link>
             <Link
-              className="text-sky-700 hover:underline"
+              className="text-black hover:text-white"
               to="/contact"
               onClick={() => setIsOpen(false)}
             >
@@ -212,18 +216,25 @@ const Navbar = () => {
                 </span>
                 {showProfileDropdown && (
                   <div className="absolute right-0 mt-2 bg-white border shadow-lg rounded-md w-40 z-50 text-sm p-2 space-y-1">
-                    <p className="hover:bg-gray-100 p-2 cursor-pointer">
+                    <Link
+                      to="/profile"
+                      className=" block hover:bg-gray-100 p-2 cursor-pointer"
+                    >
                       Profile
-                    </p>
-                    <p className="hover:bg-gray-100 p-2 cursor-pointer">
+                    </Link>
+                    <Link
+                      to="/my-orders"
+                      className="block  hover:bg-gray-100 p-2 cursor-pointer"
+                    >
                       Orders
-                    </p>
-                    <p className="hover:bg-gray-100 p-2 cursor-pointer">
-                      Buy Again
-                    </p>
-                    <p className="hover:bg-gray-100 p-2 cursor-pointer">
-                      Receipts
-                    </p>
+                    </Link>
+
+                    <Link
+                      to="/my-receipts"
+                      className="block hover:bg-gray-100 p-2 cursor-pointer"
+                    >
+                      My Receipts
+                    </Link>
                     <p
                       className="hover:bg-gray-100 p-2 cursor-pointer"
                       onClick={() => {
@@ -249,7 +260,6 @@ const Navbar = () => {
       {showSearch && (
         <div
           ref={searchRef}
-          // className="fixed inset-0 bg-opacity-30 flex justify-center items-center pt-32 z-50"
           className="fixed top-20 left-0 w-full flex flex-col items-center z-40"
         >
           <form onSubmit={handleSearchSubmit} className="w-[90%] md:w-1/2">
