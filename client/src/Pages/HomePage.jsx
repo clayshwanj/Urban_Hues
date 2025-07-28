@@ -3,7 +3,7 @@ import ProductCard from "../components/ProductCard";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import allProducts from "../data/products";
-// import ScrollToggleButton from "../components/scrollButton";
+import ScrollToggleButton from "../components/scrollButton";
 
 const HomePage = () => {
   const [filters, setFilters] = useState({ category: "all", type: "all" });
@@ -45,7 +45,7 @@ const HomePage = () => {
 
       {/* Featured Collection */}
       <div className="py-12 px-6 md:px-16 bg-white">
-        {/* <ScrollToggleButton /> */}
+        <ScrollToggleButton />
         <h2 className="text-3xl md:text-4xl font-semibold text-center mb-10 text-gray-700">
           Featured Collection
         </h2>
