@@ -13,8 +13,7 @@ const Contact = () => {
         </h2>
 
         <p className="text-center text-gray-600 mb-10">
-          Have a question, suggestion, or just want to say hello? We’d love to
-          hear from you!
+          Have a question, suggestion, or complain? We’d love to hear from you!
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
