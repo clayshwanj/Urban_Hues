@@ -1,4 +1,4 @@
-import Transaction from "../models/transactionSchema.js";
+import Transaction from "../database/models/transactionSchema.js";
 
 // Create a new transaction after checkout
 export const createTransaction = async (req, res) => {

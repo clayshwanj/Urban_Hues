@@ -1,4 +1,4 @@
-import Receipt from "../models/receiptSchema.js";
+import Receipt from "../database/models/receiptSchema.js";
 
 // Save receipt after checkout
 export const createReceipt = async (req, res) => {
