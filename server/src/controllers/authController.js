@@ -9,7 +9,7 @@ dotenv.config();
 const JWT_SECRET = process.env.JWT_SECRET;
 const REFRESH_SECRET = process.env.REFRESH_SECRET;
 const JWT_VERIFICATION_SECRET = process.env.JWT_SECRET;
-// const FRONTEND_URL = process.env.FRONTEND_URL;
+const FRONTEND_URL = process.env.FRONTEND_URL;
 const COOKIE_OPTIONS = {
   httpOnly: true,
   secure: process.env.NODE_ENV === "production",
@@ -29,14 +29,14 @@ const sendVerificationEmail = async (user, email) => {
   const token = jwt.sign({ id: user._id, email }, JWT_VERIFICATION_SECRET, {
     expiresIn: "1d",
   });
-  // const verificationLink = `${FRONTEND_URL}/auth/verify/${token}`;
+  const verificationLink = `${FRONTEND_URL}/auth/verify/${token}`;
 
   console.log({ verificationLink });
 
   await transporter.sendMail({
-    from: `Finverse <${process.env.EMAIL_USER}>`,
+    from: `Urban Hues <${process.env.EMAIL_USER}>`,
     to: email,
-    subject: "Verify your email - Finverse",
+    subject: "Verify your email - Urban Hues",
     html: `<h1>Welcome to Urban Hues!</h1>
            <p>Please verify your email by clicking the link below:</p>
            <a href="${verificationLink}">Verify Email</a>`,

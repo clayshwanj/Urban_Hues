@@ -31,9 +31,9 @@ connectDB(process.env.MONGO_URI);
 // Routes
 app.use("/auth", authRoutes);
 app.use("/user", userRoutes);
-app.use("/api/transactions", transactionRoute);
-app.use("/api/receipts", receiptRoute);
-app.use("/api/orders", orderRoutes);
+app.use("/transactions", transactionRoute);
+app.use("/receipts", receiptRoute);
+app.use("/orders", orderRoutes);
 
 app.get("/", (req, res) => {
   res.send("You have requested the home route with GET");

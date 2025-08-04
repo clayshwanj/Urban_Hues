@@ -1,26 +1,27 @@
 import express from "express";
 import {
-  createUser,
-  getUsers,
-  updateUser,
-  deleteUser,
-  forgotPassword,
-  resetPassword,
-} from "../controllers/userController.js";
+  signupUser,
+  loginUser,
+  logoutUser,
+  refreshToken,
+  verifyEmail,
+} from "../controllers/authController.js";
 import { authMiddleware } from "../middleware/authMiddleware.js";
+import User from "../database/models/user.js";
 
 const router = express.Router();
 
-// API Routes
-router.post("/users", createUser);
-router.get("/users", getUsers);
-router.put("/users/:id", updateUser);
-router.delete("/users/:id", deleteUser);
-router.post("/forgot-password", forgotPassword);
-router.post("/reset-password/:token", resetPassword);
+router.post("/signup", signupUser);
+router.post("/login", loginUser);
+router.post("/logout", logoutUser);
+router.get("/refresh", refreshToken);
+router.get("/verify/:token", verifyEmail);
 
-// Protected route
-router.get("/account", authMiddleware, (req, res) => {
-  res.json({ message: `Welcome, ${req.user.name}!` });
+// Protect this route
+router.get("/account", authMiddleware, async (req, res) => {
+  const user = await User.findById(req.user.id).select("-password");
+
+  res.json(user);
 });
+
 export default router;

@@ -76,7 +76,7 @@ export const forgotPassword = async (req, res) => {
     await transporter.sendMail({
       from: `Finverse <${process.env.EMAIL_USER}>`,
       to: email,
-      subject: "Password Reset - Finverse",
+      subject: "Password Reset - Urban Hues",
       html: `<p>Reset your password by clicking the link below:</p>
              <a href="${resetLink}">Reset Password</a>`,
     });
